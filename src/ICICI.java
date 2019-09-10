@@ -1,7 +1,7 @@
 public class ICICI extends Bank {
 
   @Override
-  public float getRateOfInterest(float rateOfInterest) {
+  public float getRateOfInterest() {
     rateOfInterest = .07f;
     return rateOfInterest;
   }
